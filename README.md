@@ -1,2 +1,8 @@
-# typeform
-Explore my Typeform projects built with React, Firebase, and Firestore! These interactive forms feature responsive designs, real-time data synchronization, and customizable layouts. Built with a focus on user experience, they showcase the power of modern web technologies. Feel free to check out the code and contribute
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

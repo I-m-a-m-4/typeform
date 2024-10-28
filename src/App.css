@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("tou.jpeg");
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+}
+
+.form-page {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.form-page.active {
+  display: block;
+}
+
+button, .option, .yes-no {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover, .option:hover, .yes-no:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.option.selected, .yes-no.selected {
+  background: rgba(255, 255, 255, 0.4);
+  border: 3px solid #141414;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px 0;
+  background: rgba(19, 11, 11, 0.2);
+  color: white;
+  width: 100%;
+}
+
+.previous-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #ff4b4b;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
